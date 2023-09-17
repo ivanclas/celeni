@@ -1,0 +1,55 @@
+body {
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.clickable-image {
+    max-width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.clickable-image:hover {
+    transform: scale(2.0);
+}
+
+.heart-frame {
+    text-align: center;
+    border: 10px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.love-messages {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Agrega más estilos según tus preferencias */
